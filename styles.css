@@ -4,7 +4,67 @@ body {
     color: #2A4A5C;
     text-indent: 7%;
 }
+.btnFb {
+    /*border: none;*/
+    /*color: white;*/
+    /*background-color: #255A9B;*/
+    /*padding: 12px 16px;*/
+    /*font-size: 16px;*/
+    /*cursor: pointer;*/
+    /*margin-left: 7%;*/
+    border: none;
+    color: white;
+    background-color: #255A9B;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 7%;
+}
 
+.btnFb:before {
+    /*content: url(images/facebook.svg);*/
+    /*width: 20px;*/
+    /*float: left;*/
+    /*margin-right: 5px;*/
+    /*margin-top: -2px;*/
+    background-image: url(images/facebook.svg);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content:"";
+}
+.btnLi {
+    border: none;
+    color: white;
+    background-color: #0076B6;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 7%;
+}
+.btnLi:before {
+    background-image: url(images/linkedin.svg);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content:"";
+}
+/*.LikedIn {*/
+/*    background-color: #0076B6;*/
+/*    border: none;*/
+/*    color: white;*/
+/*    padding: 2% 6%;*/
+/*    !*text-align: center;*!*/
+/*    !*text-decoration: none;*!*/
+/*    !*display: inline-block;*!*/
+/*    font-size: 16px;*/
+/*    !*width: 35%;*!*/
+/*    !*height: 4%;*!*/
+/*    margin-top: 2px;*/
+/*    margin-left : 7%;*/
+/*}*/
 /*.btn-group{*/
 /*    text-align:center;*/
 /*    align-content:center;*/
@@ -13,10 +73,10 @@ body {
 .rightHalf {
     background-color: white;
 }
-div.tooltip span {
-    display: none;
+/*div.tooltip span {*/
+/*    display: none;*/
 
-}
+/*}*/
 
 .in2{
     margin-left: 12%;
@@ -24,42 +84,19 @@ div.tooltip span {
     /*margin-bottom: 7%;*/
 
 }
-div.tooltip:hover span{
+.fixed {
     border: 1px solid #EEEEEE;
     text-indent: 1%;
-    display:block;/*показываем тултип при наведении*/
-    width: 250px;
+    /*display:block;!*показываем тултип при наведении*!*/
+    width: 260px;
     bottom: 100%;
+    margin-top: 5%;
     margin-left: 60px;
-    /*margin-bottom: 0%;*/
+    margin-bottom: 5%;
     background:#fafafa;/*фон, что бы было видно тултип*/
 
 }
-.facebook {
-    background-color: #255A9B;
-    border: none;
-    color: white;
-    padding: 2% 6%;
-    text-align: left;
-    font-size: 85%;
-    margin-left: 7%;
-    /*width: 35%;*/
-    /*height: 4%;*/
 
-}
-.LikedIn {
-    background-color: #0076B6;
-    border: none;
-    color: white;
-    padding: 2% 6%;
-    text-align: left;
-    /*text-decoration: none;*/
-    /*display: inline-block;*/
-    font-size: 85%;
-    /*width: 35%;*/
-    /*height: 4%;*/
-    margin-left : 7%;
-}
 .leftPage {
     position: relative;
     z-index: 0;
@@ -78,6 +115,8 @@ div.tooltip:hover span{
     display: flex;
     align-items: center;
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .separator::before, .separator::after {
     content: '';
@@ -96,16 +135,22 @@ div.tooltip:hover span{
 }
 .dataInput  {
     font-size:85%;
-    height:4%;
-    width: 37%;
+    /*height:3000%;*/
+    /*width: 37%;*/
+    height:40px;
+    width:220px;
     margin-left: 7%;
 
 }
 .dataInput1  {
     font-size:85%;
-    height:4%;
-    width:37%;
-    margin-right: 8%
+    height:40px;
+    width:220px;
+    margin-right: 9%;
+
+}
+.tooltip {
+    margin-bottom: 5%;
 }
 input::placeholder {
     transform: translateY(-10px);
@@ -113,14 +158,17 @@ input::placeholder {
 }
 h1 {
     margin-top: 15%;
-    font-size: 35px;}
+    font-size: 35px;
+
+}
 h3 {
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 25px;
 }
 .startP {
     font-size: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
+
     color: #96A5B1;
 }
 p {
@@ -130,12 +178,13 @@ p {
 
 }
 .check {
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 100%;
 }
 #create{
     background-color: #3698FB;
     border: none;
+    border-radius: 4px;
     color: white;
     padding: 2% 6%;
     text-align: left;

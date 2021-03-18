@@ -22,28 +22,23 @@
     <div class="rightHalf" style="width:45%; height:1240px; float: left; display: inline-block;">
         <h1> Get iintoo it today</h1>
         <p class="startP">There is no charge or obligation upon registration.</p>
-        <br>
-<!--        <div class="btn-toolbar">-->
-<!--            <div role="group" class="btn-group">-->
-                <button class="facebook"> <img src="images/facebook.svg" width="20">Register with Facebook</button>
-                <button class="LikedIn"> <img src="images/linkedin.svg" width="20"> Register with LikedIn </button>
-<!--            </div>-->
-<!--        </div>-->
-        <br>
-        <br>
-        <br>
-        <br>
+
+            <button class="btnFb" type="button">Register with Facebook</button>
+            <button class="btnLi" type="button"> Register with LikedIn</button>
+
+
+
         <div class="separator">OR</div>
-        <br>
-        <br>
-        <br>
-        <input class="dataInput" type="email" style="float: left" placeholder="Email" >
-        <input class="dataInput1" type="tel"  style="float: right" placeholder="Phone">
-        <br>
-        <br>
+       <form>
+           <label>
+               <input class="dataInput" name="email" type="email" style="float: left" placeholder="Email" >
+           </label>
+           <label> <input class="dataInput1" name="tel" type="tel"  style="float: right" placeholder="Phone"></label>
+
+           <br>
         <h3> What type of investor are you?</h3>
         <p>Select the type of investor you are below.</p>
-        <br>
+
         <div class ="tooltip">
         <label >
             <input id="in1" type="radio" name="value" value="option1">
@@ -56,29 +51,21 @@
         <label>
             <input class="in2" type="radio" name="value" value="option1">
             IRA
-
         </label>
         <label>
             <input class="in2" type="radio" name="value" value="option1">
             Trust
         </label>
-            <div >
-            <span >I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
-            </div>
-        </div>
-        <br>
-        <br>
+           <p class="fixed">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</p>
         <div class="check">
         <label>
             <input type="checkbox" name="value" id="option1">
            I agree to the terms and receiving notifications from iintoo <a href="text.txt" download>View full terms</a>
         </label>
         </div>
-        <br>
-        <br>
-        <br>
-        <button id="create" >Create Account</button>
+            <button type="submit" id="create">Create Account</button>
+        </div>
+       </form>
     </div>
-</div>
 </body>
 </html>
