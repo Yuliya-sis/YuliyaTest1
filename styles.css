@@ -115,8 +115,8 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 12%;
+    margin-bottom: 12%;
 }
 .separator::before, .separator::after {
     content: '';
@@ -162,7 +162,7 @@ h1 {
 
 }
 h3 {
-    margin-top: 15%;
+    margin-top: 16%;
     font-size: 25px;
 }
 .startP {
@@ -173,12 +173,12 @@ h3 {
 }
 p {
     font-size: 15px;
-    margin-bottom: 10%;
+    margin-bottom: 12%;
     color: #96A5B1;
 
 }
 .check {
-    margin-top: 5%;
+    margin-top: 8%;
     font-size: 100%;
 }
 #create{
@@ -190,7 +190,7 @@ p {
     text-align: left;
     font-size: 85%;
     margin-left: 7%;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 
