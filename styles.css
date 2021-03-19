@@ -172,7 +172,7 @@ p {
 #email{
 /*display:inline-block;*/
     outline: none;
-    width: 33%;
+    width: 32%;
     border: 1px solid #96A5B1;
     padding: 18px;
     font-size: 14px;
@@ -180,7 +180,7 @@ p {
 #tel{
     /*display: inline-block;*/
     outline: none;
-    width: 33%;
+    width: 31%;
     border: 1px solid #96A5B1;
     padding: 18px;
     font-size: 14px;
