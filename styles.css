@@ -192,9 +192,50 @@ p {
     margin-left: 7%;
     margin-top: 10%;
 }
+.form-control {
+    width: 100%;
+    position: relative;
+    margin-left: 7%;
+}
+#email{
+/*display:inline-block;*/
+    outline: none;
+    width: 33%;
+    border: 1px solid #96A5B1;
+    padding: 18px;
+    font-size: 14px;
+}
+#tel{
+    /*display: inline-block;*/
+    outline: none;
+    width: 33%;
+    border: 1px solid #96A5B1;
+    padding: 18px;
+    font-size: 14px;
+}
+#lab1{
+    position: absolute;
+left: 59%;
+    /*top:4px;*/
+}
+#lab2{
+   position: absolute;
+left: 79%;
+}
+/*#lab1{*/
+/*    position: absolute;*/
+/*    color:rgba(0,0,0,.4);*/
+/*    top:4px;*/
+/*    left:4px;*/
+/*    !*z-index: 1;*!*/
+/*}*/
+/*#lab2{*/
+/*    position: absolute;*/
+/*    color:rgba(0,0,0,.4);*/
+/*    top:4px;*/
+/*    right:4px;*/
 
-
-
+/*}*/
 @font-face {
  /*название шрифта*/
 font-family: "Barlow-Light";
