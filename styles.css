@@ -13,6 +13,8 @@ body {
     font-size: 16px;
     cursor: pointer;
     margin-left: 7%;
+
+
 }
 
 .btnFb:before {
@@ -32,6 +34,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     margin-left: 7%;
+    margin-rigth: 40px;
 }
 .btnLi:before {
     background-image: url(images/linkedin.svg);
@@ -62,9 +65,9 @@ body {
     /*display:block;!*показываем тултип при наведении*!*/
     width: 260px;
     bottom: 100%;
-    margin-top: 5%;
+    margin-top: 35px;
     margin-left: 60px;
-    margin-bottom: 5%;
+    margin-bottom: 15px;
     background:#fafafa;/*фон, что бы было видно тултип*/
 
 }
@@ -87,8 +90,8 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 12%;
-    margin-bottom: 12%;
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 .separator::before, .separator::after {
     content: '';
@@ -97,12 +100,12 @@ body {
 }
 .separator::before {
 
-    margin-right: 5%;
-    margin-left: 25%;
+    margin-right: 25px;
+    margin-left: 100px;
 }
 .separator::after {
-    margin-left: 5%;
-    margin-right: 25%;
+    margin-left: 25px;
+    margin-right: 100px;
 
 }
 .dataInput  {
@@ -122,35 +125,35 @@ body {
 
 }
 .tooltip {
-    margin-bottom: 5%;
+    margin-bottom: 15px;
 }
-input::placeholder {
-    transform: translateY(-10px);
-    color: #96A5B1;
-}
+/*input::placeholder {*/
+/*    transform: translateY(-10px);*/
+/*    color: #96A5B1;*/
+/*}*/
 h1 {
-    margin-top: 15%;
+    margin-top: 75px;
     font-size: 35px;
 
 }
 h3 {
-    margin-top: 16%;
+    margin-top: 45px;
     font-size: 25px;
 }
 .startP {
     font-size: 20px;
-    margin-bottom: 15%;
+    margin-bottom: 75px;
 
     color: #96A5B1;
 }
 p {
     font-size: 15px;
-    margin-bottom: 12%;
+    margin-bottom: 50px;
     color: #96A5B1;
 
 }
 .check {
-    margin-top: 8%;
+    margin-top: 45px;
     font-size: 100%;
 }
 #create{
@@ -162,7 +165,7 @@ p {
     text-align: left;
     font-size: 85%;
     margin-left: 7%;
-    margin-top: 10%;
+    margin-top: 65px;
 }
 .form-control {
     width: 100%;
@@ -188,7 +191,7 @@ p {
 #lab1{
     position: absolute;
 left: 59%;
- 
+
 }
 #lab2{
    position: absolute;
